@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Russo+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+    <title>Can You Change Accurately $</title>
+</head>
+<body>
+    <iframe src="sound/silence.mp3" allow = "autoplay" style = "display: none" id = "iframeAudio"></iframe>
+
+    <audio id = "player" autoplay loop>
+        <source src="sound/bgm0.mp3" type = "audio/mp3">
+    </audio>
+
+
+    <div id = "container" class = "container">
+
+
+        <div id = "level" class = "row">Level: 0</div>
+
+
+        <div id = "account" class = "row">Account: $10</div>
+
+
+<!------------ page 0-------------->
+
+        <div id = "page0" class = "page">
+
+            <div id = "title">Can You Change Accurately $   😭    😱   😨   🤑   🤔   😆   😍</div>
+
+            <div id = "frontImg" class = "page">
+                <img src="images/front6.png">
+            </div>
+
+
+            <div class = "row">Last Profit
+                <div id = "lastProfit">$</div>
+            </div>
+
+
+            <div id = "playerName" class = "row">Hello~ Your Name?
+                <div>
+                    <input type = "text" id = "playerInputName">
+                </div>
+            </div>
+
+
+            <div id = "startButton" class = button>START GAME!</div>
+
+
+        </div>
+
+<!---page 1--------- game page----->
+
+        <div id = "page1" class = "page">
+
+            <div id = "gameParameter" class = "row">    Happy | Customers</br>
+                <div id = "happyNumber">100%</div>
+                <div id = "customerNumber">#</div>
+            </div>
+
+
+            <div id = "imgDiv">
+                <img id = "shopImg" src="images/front5.png">
+                <img id = "itemImg" src="images/fruit1.jpg">
+                <div id = "speech">Hello!!</div>
+            </div>
+
+
+            <div class = "row">Item Name
+                <div id = "itemNameRan">Name</div>
+            </div>
+
+
+            <div class = "row">Item Price
+                <div id = "itemPriceRan">Price</div>
+            </div>
+
+
+            <div class = "row">Customer Pay
+                <div id = "customerPayRan">$9999</div>
+            </div>
+
+
+            <div class = "row">You Change
+                <div>
+                    <input type = "number" id = "playerChange">
+                </div>
+
+            </div>
+
+
+            <div id = "endGameButton">End Game!</div>
+
+        </div>
+
+<!------------ page 2-------------->
+
+
+    </div>
+<script src = "script.js"></script>
+</body>
+</html>
