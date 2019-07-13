@@ -1,6 +1,6 @@
 # project1_changeGame
 
-# Key Purpose and Objective =========================================================
+# Key Purpose and Objective ==========================================
 
 Game is created to be served as a educational tool to help toddlers and young children with basic money handling concepts. 
 
@@ -9,7 +9,7 @@ It is to get kids interested in money handling and at the same time cultivate th
 
 
 
-# Game Structure ====================================================================
+# Game Structure =====================================================
 
 Game staged the player as a fruit selling scene, the selling items, selling price amount and customer paying amount are randomised throughout the game. 
 
@@ -20,7 +20,7 @@ Player will have the option to choose the level of difficulty. Current version s
 
 
 
-# Game Layout Details ===============================================================
+# Game Layout Details ================================================
 
 *Grey boxes are buttons for player's actions*
 
@@ -71,7 +71,7 @@ End Game - Will proceed back to the main screen upon clicked. Last profit will b
 
 
 
-# Game Play Instructions ===========================================================
+# Game Play Instructions =============================================
 
 * Player is suppose to calculate the exact correct change back to the paying customer.*
 
@@ -123,9 +123,13 @@ You Change =  0.00 (wrong answer)
 
 
 
-# Future Versions ==================================================================
+# Future Versions ====================================================
 
-## Adding numbr pad for mobile version.
+## Greeting message for user name.
+
+## Add intro page for tutorial.
+
+## Adding number pad for mobile version.
 
 ## Create a result page to display scores and stats of game played.
 
